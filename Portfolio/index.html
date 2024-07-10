@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritender Singh Dasila - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @keyframes pulse {
+            0% {
+                color: rgb(200, 200, 228);
+                transform: scale(1);
+            }
+            50% {
+                color: rgb(0, 0, 0);
+                transform: scale(1.5);
+            }
+            100% {
+                color: rgb(217, 217, 238);
+                transform: scale(1);
+            }
+        }
+
+        h6 {
+            font-family: 'Times New Roman', Times, serif;
+            animation: pulse 2s infinite;
+        }
+        .container {
+            display: grid;
+            place-items: center;
+            height: 40vh; /* Full viewport height */
+        }
+        .image-container {
+            max-width: 20%;
+            height: auto; /* Maintain aspect ratio */
+        }
+        .image-container {
+        position: relative;
+        border-image: auto;
+        width: 300px; /* Adjust width as needed */
+        overflow: hidden;
+    }
+    
+    .image-container img {
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+    .image-container:hover img {
+        transform: scale(1.5); /* Adjust scale factor for zoom effect */
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(214, 214, 228);font-size:xx-large;">Ritender Singh Dasila</h1>
+       
+        <div class="image-container">
+            <img src="C:\Users\Ritender Singh\Documents\Portfolio-Website-Template-main\Portfolio\IMG_20240208_184411.jpg" alt="" style="display: block; margin: 0 auto;">
+        </div>
+  
+
+
+        <h6 style="font-family: 'Times New Roman', Times, serif;">To send message for RITENDER click on contact</h4>
+        <nav>
+            <ul>
+                <li ><a href="contact.html", style="color: rgb(180, 29, 29);">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <h2>About Me</h2>
+
+
+        <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;, 'Arial Narrow Bold', sans-serif; font-style: italic;font: weight 200px;;">Hello!
+            I'm Ritender Singh Dasila,<br> 
+            I live in Haldwani, Uttarakhand. Currently I am pursuing By Bachlor's Degree from Graphic Era Hill University.<br>
+            I am a passionate web developer with experience in creating dynamic and responsive websites.<br>
+            I enjoy coding and always strive to improve my skills.</p>
+
+
+
+
+    <footer style="font-size: x-small;">
+        <p>&copy; 2024 Ritender Singh Dasila</p>
+        <p><img src="C:\Users\Ritender Singh\Documents\Portfolio\insta.jpg" 
+            alt="" 
+            width="10" 
+            height="15">
+            <a href="https://www.instagram.com/_riten_04/", style="color: rgb(255, 255, 255);">
+                &copy;_riten_o4
+            </a>
+        </p>
+        <p>&copy; Call 7455913908</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
